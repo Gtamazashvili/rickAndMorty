@@ -8,6 +8,7 @@ type propsValues = {
   species: string;
   lastKnowLocation: string;
   episode: string[];
+  id: number;
 };
 
 export default function Card(props: propsValues) {

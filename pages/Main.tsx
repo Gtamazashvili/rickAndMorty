@@ -58,7 +58,6 @@ const Main: React.FC = () => {
       species={Element.species}
       lastKnowLocation={Element.location.name}
       episode={Element.episode}
-      id={Element.id}
     />
   ));
 
